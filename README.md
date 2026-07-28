@@ -1,18 +1,12 @@
-# condition.py
-# ==============================================
+
 #        CONDITIONAL ASSIGNMENT - PYTHON
 #              Student: Your Name
-# ==============================================
 
 print("=" * 50)
 print("        CONDITIONAL ASSIGNMENT")
 print("=" * 50)
 
-# ==================================================
 # Question 1 - ATM Machine System
-# ==================================================
-
-print("\n========== Question 1 ==========")
 
 balance = 50000
 withdraw = 1000
@@ -34,10 +28,7 @@ else:
         print("Normal User")
 
 
-# ==================================================
 # Question 2 - Smart Username Validator
-# ==================================================
-
 print("\n========== Question 2 ==========")
 
 username = input("Enter Username: ")
@@ -57,10 +48,7 @@ elif not any(char.isdigit() for char in username):
 else:
     print("Username is Valid.")
 
-
-# ==================================================
 # Question 3 - Exam Eligibility Checker
-# ==================================================
 
 print("\n========== Question 3 ==========")
 
@@ -81,9 +69,7 @@ else:
     print("Not Eligible: Fees are Unpaid")
 
 
-# ==================================================
 # Question 4 - Password Security Checker
-# ==================================================
 
 print("\n========== Question 4 ==========")
 
@@ -104,10 +90,7 @@ elif "@" not in password and "#" not in password:
 else:
     print("Strong Password")
 
-
-# ==================================================
 # Question 5 - Online Shopping Discount System
-# ==================================================
 
 print("\n========== Question 5 ==========")
 
@@ -130,10 +113,7 @@ print("Customer Name :", name)
 print("Discount      :", discount)
 print("Final Bill    :", final_bill)
 
-
-# ==================================================
 # Question 6 - Email Verification System
-# ==================================================
 
 print("\n========== Question 6 ==========")
 
@@ -151,11 +131,7 @@ elif not email.endswith("@gmail.com"):
 else:
     print("Email Verified")
 
-
-# ==================================================
 # Question 7 - Smart Number Analyzer
-# ==================================================
-
 print("\n========== Question 7 ==========")
 
 num = int(input("Enter a Number: "))
@@ -179,9 +155,7 @@ if num > 100:
     print("Large Number")
 
 
-# ==================================================
 # Question 8 - Truthy Falsy Login System
-# ==================================================
 
 print("\n========== Question 8 ==========")
 
@@ -196,10 +170,7 @@ else:
 print("Lowercase Username :", username.lower())
 print("Reversed Username  :", username[::-1])
 
-
-# ==================================================
 # Question 9 - Word Analyzer System
-# ==================================================
 
 print("\n========== Question 9 ==========")
 
@@ -216,10 +187,7 @@ else:
 print("Updated Sentence :", sentence.replace("Python", "JavaScript"))
 print("Reversed Sentence:", sentence[::-1])
 
-
-# ==================================================
 # Question 10 - Nested Login & Role Checker
-# ==================================================
 
 print("\n========== Question 10 ==========")
 
@@ -240,7 +208,4 @@ if username == "admin" and password == "12345":
 
 else:
     print("Invalid Username or Password")
-
-print("\n==============================================")
 print("      Assignment Completed Successfully")
-print("==============================================")
